@@ -1,0 +1,176 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.body1
+{
+    
+    text-decoration: none;
+    background-image: linear-gradient(to bottom left, rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0), rgb(0, 0, 0));
+    width: 100%;
+    height: 80px;
+    
+    margin: 0px;
+    padding: 6px;
+    border: 00px;
+}
+
+.body2
+{
+    background-image: linear-gradient(to right ,rgb(0, 255, 255), rgb(191, 123, 255));
+    width: 100%;
+    height: 30%;
+    
+    margin: 0%;
+    padding: 6px;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.body3
+{
+    background-image: linear-gradient(to right ,rgb(0, 0, 0), rgb(0, 0, 0));
+    width: 100%;
+    height: 1000px;
+    
+    margin: 0%;
+    padding: 6px;
+}
+
+
+
+
+.box
+{
+    width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 5px solid #68a1b3;
+    transform: translate(-50%,-50%); 
+	text-align: center;
+	background: #35363f;
+	border-radius: 50px;
+    transition: 1s;
+}
+
+.background
+{
+    transition: 2s;
+    opacity: 0.6;
+    width: 1350px;
+    height: 1000px;
+   
+}
+
+
+.logo
+{
+    float: left;
+    position: absolute;
+    height: 1.8cm;
+    width: 1.8cm;
+    margin: 4px;
+    margin-left: 3%;
+    margin-top: 0.3%;
+    padding: 1px;
+}
+
+.header
+{
+    float: right;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 19px;
+    margin-left: 0px;
+    margin-right: 9px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size-adjust: 0.6;
+    font-family: 'Didact Gothic';
+    
+    content: ' ';
+    z-index: 1;
+}
+
+a.header
+{
+    font-family: 'Lucida Console', Monaco, monospace;
+    color: white;
+    position: relative;
+    transition: 1s;
+    font-weight: 500;
+
+}
+
+a.header:hover
+{
+    color: rgb(106, 255, 255);
+    transition: 1s;
+    filter: blur(0.0px);
+    text-shadow: 0 0 10px rgb(0, 255, 242) ,
+                 0 0 20px rgb(103, 255, 128) ,
+                 0 0 40px rgb(116, 239, 255) ,
+                 0 0 80px rgb(117, 248, 150) ,
+                 0 0 160px #77fff8 ;
+                 animation: animate 10s linear infinite;
+
+
+
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+.scrollpath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 0%;
+    width: 0.9%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5,);
+}
+
+.progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0.9%;
+    height: 100%;
+    background: linear-gradient(to top ,cyan,purple);
+}
+
+.color
+{
+    color: seashell;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-family: 'Lucida Console', Monaco, monospace;
+
+}
